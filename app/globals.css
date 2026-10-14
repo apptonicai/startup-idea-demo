@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --ink: #1c1915;
+  --paper: #f6f1e7;
+  --amber: #c45512;
+}
+
+body {
+  background: #e7e1d6;
+  color: var(--ink);
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  font: inherit;
+}
